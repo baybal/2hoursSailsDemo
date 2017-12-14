@@ -1,0 +1,66 @@
+user {
+	display: block;
+	border: 1px solid;
+	margin-bottom: 1em;
+}
+
+signup {
+	display: flex;
+	text-align: center;
+	flex-flow: column;
+	max-width: 300px;
+	margin: auto;
+}
+
+signup>* {
+	display: block;
+}
+
+popup {
+	display: block;
+	margin: auto;
+	max-width: 300px;
+	max-height: 1em;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	color: red;
+	font-size: 2rem;
+}
+
+message {
+	color: red;
+}
+
+login-form {
+	display: flex;
+	flex-flow: column;
+	margin: auto;
+	max-width: 300px;
+	max-height: 300px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	font-size: 2rem;
+}
+
+user-data {
+	display: flex;
+	flex-flow: column;
+	margin: auto;
+	max-width: 300px;
+	max-height: 300px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	font-size: 2rem;
+}
