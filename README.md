@@ -19,3 +19,5 @@ cd apidemo
 (do not forget to set up postgresql)
 
 npm sails lift --drop
+
+Default admin account is "admin@test.com" password "test" (configurable in config/bootstrap.js)
