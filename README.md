@@ -9,8 +9,13 @@ Default is set for ubuntu:ubuntu@localhost/apidemo (user ubuntu, pwd ubuntu, db 
 To start,
 
 npm i
+
 npm install sails@beta --save
+
 npm install sails@beta -g --save
+
 cd apidemo
+
 (do not forget to set up postgresql)
+
 npm sails lift --drop
